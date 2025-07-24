@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='Producto',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nombre', models.CharField(max_length=100)),
+                ('nombre', models.CharField(max_length=101)),
                 ('descripcion', models.TextField()),
                 ('marca', models.CharField(max_length=50)),
                 ('cantidad_minima', models.IntegerField()),
